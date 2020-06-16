@@ -1,7 +1,7 @@
 
 figure
 
-for iii=1:332
+for iii=1:243
 in=simout.Data(:,:,iii);
 
 [r,c]=find(in(1:60,:)>0);
